@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace xamarin_forms_test.iOS
+namespace OMDbBrowser.iOS
 {
     public class Application
     {

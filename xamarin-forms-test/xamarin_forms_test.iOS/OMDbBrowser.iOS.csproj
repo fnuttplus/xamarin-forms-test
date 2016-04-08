@@ -92,15 +92,15 @@
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
-    <Compile Include="PhoneDialer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\xamarin_forms_test\xamarin_forms_test.csproj">
-      <Name>xamarin_forms_test</Name>
+    <ProjectReference Include="..\xamarin_forms_test\OMDbBrowser.csproj">
+      <Name>OMDbBrowser</Name>
+      <Project>{C7466FF5-BB78-4DB3-98C3-8E6D716C9834}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,13 +1,12 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
-namespace Phoneword
+namespace OMDbBrowser
 {
     public class App : Application
     {
         public App()
         {
-            MainPage = new Phoneword.MainPage();
+            MainPage = new MasterPage();
         }
 
         protected override void OnStart()

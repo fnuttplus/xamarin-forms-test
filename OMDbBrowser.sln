@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_forms_test.Droid", "xamarin-forms-test\xamarin_forms_test.Droid\xamarin_forms_test.Droid.csproj", "{B64F869D-2267-4244-B37D-62E31DF9D7F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMDbBrowser.Droid", "xamarin-forms-test\xamarin_forms_test.Droid\OMDbBrowser.Droid.csproj", "{B64F869D-2267-4244-B37D-62E31DF9D7F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_forms_test.iOS", "xamarin-forms-test\xamarin_forms_test.iOS\xamarin_forms_test.iOS.csproj", "{D3CC7B0C-2C1A-46B2-81B1-A5D6EAE7B63A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMDbBrowser.iOS", "xamarin-forms-test\xamarin_forms_test.iOS\OMDbBrowser.iOS.csproj", "{D3CC7B0C-2C1A-46B2-81B1-A5D6EAE7B63A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_forms_test.UWP", "xamarin-forms-test\xamarin_forms_test.UWP\xamarin_forms_test.UWP.csproj", "{8B732C4A-95AD-49C8-96D9-06DCBA90F9E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMDbBrowser.UWP", "xamarin-forms-test\xamarin_forms_test.UWP\OMDbBrowser.UWP.csproj", "{8B732C4A-95AD-49C8-96D9-06DCBA90F9E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_forms_test", "xamarin-forms-test\xamarin_forms_test\xamarin_forms_test.csproj", "{C7466FF5-BB78-4DB3-98C3-8E6D716C9834}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMDbBrowser", "xamarin-forms-test\xamarin_forms_test\OMDbBrowser.csproj", "{C7466FF5-BB78-4DB3-98C3-8E6D716C9834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

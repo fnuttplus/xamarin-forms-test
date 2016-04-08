@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace xamarin_forms_test.UWP
+namespace OMDbBrowser.UWP
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
