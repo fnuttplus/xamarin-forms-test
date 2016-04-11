@@ -19,6 +19,7 @@
         <Entry x:Name="inSearch" Text="Batman" HorizontalOptions="FillAndExpand"/>
         <Button x:Name="btnSearch" Text="Search" Clicked="OnSearch" />
       </StackLayout>
+      <ActivityIndicator IsRunning="true" IsVisible="false" x:Name="aiLoading"/>
       <ListView x:Name="MovieView" ItemSelected="OnSelected">
         <ListView.ItemTemplate>
           <DataTemplate>
@@ -29,7 +30,7 @@
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
-      <Label Text="" x:Name="lblOut"/>
+      <Label Text="" x:Name="lblOut" IsVisible="false"/>
 
     </StackLayout>
   </ContentPage.Content>

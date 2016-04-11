@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace OMDbBrowser
 {
@@ -12,7 +6,11 @@ namespace OMDbBrowser
     {
         public MainPage()
         {
-            InitializeComponent();
+            Title = "OMDbBrowser";
+            MasterBehavior = MasterBehavior.SplitOnLandscape;
+            DetailsPage Details = new DetailsPage() { Title = "Description"};
+            Detail = Details;
+            Master = new MasterPage(Details);
         }
     }
 }

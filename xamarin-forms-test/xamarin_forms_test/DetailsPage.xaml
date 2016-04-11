@@ -16,8 +16,12 @@
                  x:Name="stackLayout">
 
       <Image x:Name="imgPoster" />
-      <Label x:Name="lblTitle" />
-
+      <StackLayout Orientation="Horizontal">
+        <Label x:Name="lblTitle" FontSize="Large" />
+        <Label x:Name="lblYear" FontSize="Large" />
+      </StackLayout>
+      <Label x:Name="lblPlot" FontAttributes="Italic" />
+      
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>

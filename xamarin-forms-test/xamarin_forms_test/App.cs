@@ -6,7 +6,7 @@ namespace OMDbBrowser
     {
         public App()
         {
-            MainPage = new MasterPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
