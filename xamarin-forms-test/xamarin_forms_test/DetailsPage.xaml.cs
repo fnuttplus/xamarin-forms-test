@@ -16,9 +16,11 @@ namespace OMDbBrowser
             lblYear.Text = "("+year+")";
         }
 
-        public void SetMoreContent(string plot)
+        public void SetMoreContent(string plot, string rating, string genre)
         {
             lblPlot.Text = plot;
+            lblRating.Text = "★" + rating;
+            lblGenre.Text = genre;
         }
     }
 }

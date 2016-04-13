@@ -14,14 +14,18 @@
                  Orientation="Vertical"
                  Spacing="15"
                  x:Name="stackLayout">
-
-      <Image x:Name="imgPoster" />
-      <StackLayout Orientation="Horizontal">
-        <Label x:Name="lblTitle" FontSize="Large" />
-        <Label x:Name="lblYear" FontSize="Large" />
+      <StackLayout Orientation="Horizontal" Spacing="20">
+        <Image x:Name="imgPoster" HorizontalOptions="Start"/>
+        <StackLayout Orientation="Vertical">
+          <StackLayout Orientation="Horizontal">
+            <Label x:Name="lblTitle" FontSize="Large" />
+            <Label x:Name="lblYear" FontSize="Large" />
+            <Label x:Name="lblRating" FontSize="Large" />
+          </StackLayout>
+          <Label x:Name="lblGenre" />
+          <Label x:Name="lblPlot" FontAttributes="Italic" FontSize="Medium"/>
+        </StackLayout>
       </StackLayout>
-      <Label x:Name="lblPlot" FontAttributes="Italic" />
-      
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>
