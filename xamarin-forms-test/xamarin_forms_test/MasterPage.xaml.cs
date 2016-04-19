@@ -27,6 +27,7 @@ namespace OMDbBrowser
 
         public MasterPage(DetailsPage details)
         {
+            
             BackgroundColor = Color.FromRgba(0, 0, 0, 100);
             webClient = new HttpClient();
             webClient.BaseAddress = new Uri("http://www.omdbapi.com/");
